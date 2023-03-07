@@ -30,7 +30,6 @@ button {
     border-style: none;
     border-radius: 5px;
     padding: 5px 25px 5px 25px;
-
 }
 
 .header {
@@ -65,23 +64,35 @@ button {
 .hero {
     flex: auto;
     display: flex;
-    gap: 14px;
+    gap: 30px;
     align-items: center;
     justify-content: space-between;
 }
 
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 .hero-text h1 {
+    margin: 0;
     flex: auto;
     font-size: 48px;
     color: #F9FAF8;
 }
 
 .hero-subtext {
+    margin: 0;
     flex: auto;
     font-size: 18px;
     color: #E5E7EB;
 }
 
+.hero-text button {
+    flex: 0 0 auto;
+}
 .hero-image {
     flex: none;
     display: flex;
